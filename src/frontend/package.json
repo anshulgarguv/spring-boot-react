@@ -10,11 +10,12 @@
     "react-minimal-pie-chart": "^8.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "yarn": "^1.22.11"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && rsync -av /Users/anshul.garg/Documents/code/ipl-dashboard/src/frontend/build/ /Users/anshul.garg/Documents/code/ipl-dashboard/src/main/resources/public",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
